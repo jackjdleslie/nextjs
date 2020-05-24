@@ -4,6 +4,8 @@ import Link from "next/link";
 import Date from '../components/date'
 import React from "react";
 import { library } from '@fortawesome/fontawesome-svg-core'
+
+
 export default function SocialMedia({ }){
     return (
         <div className="social-media-container">

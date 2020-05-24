@@ -2,15 +2,18 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import NavBar from "./navbar";
 
 const name = 'Ariane Hine'
 export const siteTitle = 'Ariane Hine - Software Developer'
 
 export default function Layout({ children, home }) {
     return (
+        <div className={styles.totalContainer}>
+        <NavBar/>
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.ico?v=2" />
                 <meta
                     name="description"
                     content="Learn how to build a personal website using Next.js"
@@ -61,6 +64,7 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
+        </div>
         </div>
     )
 }
