@@ -4,20 +4,24 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import React from "react";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import SocialMedia from '../components/socialmediacomponent'
+library.add(faCoffee);
 
 export default function Home({ allPostsData }){
   return (
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         </Head>
         <section className={utilStyles.headingMd}>
           <p>Hello,
-          I'm Ariane. A software engineer graduate with a BSc in Computer Science from the University of St Andrews</p>
-          <p>
-            (This is a sample website - you’ll be building a site like this on{' '}
-            <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-          </p>
+          I'm Ariane. A BSc Computer Science graduate from the University of St Andrews.</p>
+            <p role="image" aria-label="hamburger"> This is my personal website, which was built using Next.js, to showcase my experience and skills - call it a modern CV! 👩🏻‍💻</p>
         </section>
           <section className={utilStyles.headingMd}>…</section>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -36,10 +40,14 @@ export default function Home({ allPostsData }){
                   ))}
               </ul>
           </section>
+         <SocialMedia/>
+
+          {/*<FontAwesomeIcon icon="coffee" />*/}
       </Layout>
 
 
   )
+
 }
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
