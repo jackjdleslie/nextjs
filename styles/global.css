@@ -26,6 +26,13 @@ img {
     max-width: 100%;
     display: block;
 }
+#outerDiv{
+    text-align: center;
+}
+#innerDiv{
+    display:inline-block;
+    text-align: left;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -161,4 +168,9 @@ img {
     align-items:center;
     margin: 0 auto;
     text-align:center;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    padding-bottom:30px;
 }

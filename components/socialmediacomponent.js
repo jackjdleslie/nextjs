@@ -11,6 +11,8 @@ export default function SocialMedia({ }){
             <Head>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             </Head>
+
+            <h4>Keep up with me:</h4>
             {/*<a href="http://www.facebook.com/arianehine" target="_blank" className="fa fa-facebook"></a>*/}
             <a href="http://www.twitter.com/arianehine" target="_blank" className="fa fa-twitter"></a>
             <a href="http://www.linkedin.com/in/arianehine" target="_blank" className="fa fa-linkedin"></a>
