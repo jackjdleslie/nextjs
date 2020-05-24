@@ -25,7 +25,7 @@ export default function NavBar({ children, home }) {
                         size={30}
                     />
                     <Text pl={3} color="white">
-                        Ariane A Hine
+                        Ariane Hine
                     </Text>
                 </Flex>
                 <Box>

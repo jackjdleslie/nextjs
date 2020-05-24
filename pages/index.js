@@ -51,7 +51,6 @@ export default function Home({ allPostsData }){
           {/*        ))}*/}
           {/*    </ul>*/}
           {/*</section>*/}
-         <SocialMedia/>
 
           {/*<FontAwesomeIcon icon="coffee" />*/}
       </Layout>

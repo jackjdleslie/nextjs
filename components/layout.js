@@ -3,6 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import NavBar from "./navbar";
+import SocialMedia from "./socialmediacomponent";
 
 const name = 'Ariane Hine'
 export const siteTitle = 'Ariane Hine - Software Developer'
@@ -65,6 +66,7 @@ export default function Layout({ children, home }) {
                 </div>
             )}
         </div>
+            <SocialMedia/>
         </div>
     )
 }
