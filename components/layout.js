@@ -4,12 +4,18 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import NavBar from "./navbar";
 import SocialMedia from "./socialmediacomponent";
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Education from '../pages/education'
+import Skills from '../pages/skills'
+import WorkExperience from '../pages/workexperience'
 
 const name = 'Ariane Hine'
 export const siteTitle = 'Ariane Hine - Software Developer'
 
 export default function Layout({ children, home }) {
     return (
+        <div>
         <div className={styles.totalContainer}>
         <NavBar/>
         <div className={styles.container}>
@@ -67,6 +73,7 @@ export default function Layout({ children, home }) {
             )}
         </div>
             <SocialMedia/>
+        </div>
         </div>
     )
 }

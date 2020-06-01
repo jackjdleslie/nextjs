@@ -24,6 +24,7 @@
     "next": "^9.3.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.2.0",
     "react-social-media-follow": "^1.1.1",
     "remark": "^12.0.0",
     "remark-html": "^11.0.2",

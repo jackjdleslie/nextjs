@@ -25,13 +25,13 @@ export default function NavBar({ children, home }) {
                         size={30}
                     />
                     <Text pl={3} color="white">
-                        Ariane Hine
+                        <Link px={3} color="white"  href="/">Ariane Hine</Link>
                     </Text>
                 </Flex>
                 <Box>
-                    <NavLink>Home</NavLink>
-                    <NavLink>About</NavLink>
-                    <NavLink>Contact</NavLink>
+                    <Link px={2} color="white"  href="education">Education</Link>
+                    <Link px={2} color="white"  href="workexperience">Work</Link>
+                    <Link px={2} color="white"  href="skills">Skills</Link>
                 </Box>
             </Flex>
         </ThemeProvider>
