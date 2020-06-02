@@ -5,7 +5,7 @@ export default function Skills({ }) {
         <div>
             <NavBar/>
 
-        <h1>skills</h1>
+            <h1 className="titlepages">Skills</h1>
             <SocialMedia/>
         </div>
     )
