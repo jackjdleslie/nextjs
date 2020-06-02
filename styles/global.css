@@ -364,3 +364,42 @@ img {
     }
 }
 
+.technical{
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin-bottom: 30px;
+    align-content:center;
+    width:35%;
+    border-radius: 10px;
+    background:#f7f7f5;
+    margin-left:2.5%;
+    display: inline-block;
+}
+
+.hobbies{
+    display: inline-block;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin-bottom: 30px;
+    align-content:center;
+    width:50%;
+    border-radius: 10px;
+    background:#f7f7f5;
+    margin-left:2.5%;
+    vertical-align:top;
+}
+.technical ul, .hobbies ul{
+    padding-left: 15%;
+}
+.technical h3, .hobbies h3 {
+    padding-left: 7.5%;
+}
+
+.technical h2, .hobbies h2{
+    text-align: center;
+    padding-left: 7.5%;
+    text-decoration: underline;
+}
+

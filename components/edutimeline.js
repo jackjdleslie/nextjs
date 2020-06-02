@@ -44,6 +44,30 @@ const timelineData = [
         }
     },
     {
+        text: 'Mentored at St. Andrews Stacshack Hackathon',
+        date: 'February 2020',
+        category: {
+            tag: 'Hackathons',
+            color: '#9930d1'
+        },
+    },
+    {
+        text: 'Competed in J.P.Morgan Code For Good Hackathon in Glasgow',
+        date: 'November 2019',
+        category: {
+            tag: 'Hackathons',
+            color: '#9930d1'
+        },
+    },
+    {
+        text: 'Competed in J.P.Morgan Global Hackathon',
+        date: 'July 2019',
+        category: {
+            tag: 'Hackathons',
+            color: '#9930d1'
+        },
+    },
+    {
         text:
             'Achieved Dean\'s list award',
         date: 'June 2019',
