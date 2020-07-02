@@ -370,7 +370,7 @@ img {
     border-style: solid;
     margin-bottom: 30px;
     align-content:center;
-    width:35%;
+    width:40%;
     border-radius: 10px;
     background:#f7f7f5;
     margin-left:2.5%;
@@ -403,3 +403,17 @@ img {
     text-decoration: underline;
 }
 
+.technical h4, .hobbies h4{
+    padding-left: 7.5%;
+}
+
+iframe {
+    display: block;
+}
+
+
+.hobbiesImages{
+    max-width:50%;
+    display: block;
+    margin: 0 auto;
+}

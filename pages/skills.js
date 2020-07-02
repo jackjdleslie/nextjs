@@ -1,6 +1,8 @@
 import SocialMedia from "../components/socialmediacomponent";
 import NavBar from "../components/navbar";
 import React from "react";
+import styles from "../components/layout.module.css";
+import utilStyles from "../styles/utils.module.css";
 
 export default function Skills({}) {
 
@@ -23,6 +25,7 @@ export default function Skills({}) {
                     <li>Spring Boot</li>
                     <li>TypeScript (Angular)</li>
                     <li>JavaScript</li>
+                    <li>Next.js</li>
                     <li>C</li>
                     <li>Python</li>
                     <li>SQL</li>
@@ -45,6 +48,7 @@ export default function Skills({}) {
                     <li>Atom</li>
                     <li>JIRA</li>
                     <li>Trello</li>
+                    <li>Tableau</li>
                     <li>BitBucket</li>
                     <li>Git & GitHub</li>
 
@@ -84,7 +88,15 @@ export default function Skills({}) {
             <div className={"interpersonal"}>
                 <h3>Past Projects</h3>
                 <ul>
-                    <li>*</li>
+                    <li>This web app :) - Next.js</li>
+                    <li>Medication Checker Application for Multimorbidities - Angular</li>
+                    <li>Implementation of Turing Machine - Java </li>
+                    <li>Employee Mental Health tracking web application (Hackathon) - ReactJS (Frontend)</li>
+                    <li>Othello game with GUI & AI - Java</li>
+                    <li>Distributed Centralised Algorithm - Java RMI</li>
+                    <li>Visualisation of the Deaths & Imprionments of Journalists - Tableau</li>
+                    <li>Client/Server Tron Game - Java</li>
+                    <li>Big Data Comet Analysis & Visualisation - Python</li>
 
 
 
@@ -95,12 +107,32 @@ export default function Skills({}) {
             <div className={"hobbies"}>
                 <col xs/>
                 <h2>Hobbies & Interests</h2>
+                <h4> Embroidery </h4>
+                <img
+                    src="/images/106386407_702206317012367_3158336333883841338_n.jpg"
+                    className={"hobbiesImages"}
+
+                />
+                <img
+                    src="/images/105679472_207586480457175_1864023214332094401_n.jpg"
+                    className={"hobbiesImages"}
+
+                />
+                <h4> Etsy </h4>
+                <img
+                    src="/images/106463460_283196949553244_1679927028168933178_n.jpg"
+                    className={"hobbiesImages"}
+
+                />
+                <h4> Being an absolute music connoisseur ;)</h4>
+                <p align="center"> Listen to some of my favs here </p>
+                <p align="center"><iframe src="https://open.spotify.com/embed/playlist/5oQtU59CB1irSYMQnIHYlx" width="300" height="380"
+                                          frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
             </div>
 
             <SocialMedia/>
             </row>
         </div>
-
 
 
 

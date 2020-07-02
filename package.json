@@ -24,6 +24,7 @@
     "emotion-theming": "^10.0.27",
     "gray-matter": "^4.0.2",
     "next": "^9.3.3",
+    "next-images": "^1.4.0",
     "randomcolor": "^0.5.4",
     "rd3": "^0.8.1",
     "react": "^16.13.0",

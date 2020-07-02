@@ -1,4 +1,13 @@
 const timelineData = [
+
+    {
+        text: 'Finished Internship at J.P.Morgan',
+        date: 'August 08 2020',
+        category: {
+            tag: 'J.P.Morgan',
+            color: '#e17b77'
+        },
+    },
     {
         text: 'Joined ScottishPower as a Masters Scholar',
         date: 'June 02 2020',
@@ -7,14 +16,6 @@ const timelineData = [
             color: '#f5d60f'
         },
 
-    },
-    {
-        text: 'Finished Internship at J.P.Morgan',
-        date: 'August 08 2020',
-        category: {
-            tag: 'J.P.Morgan',
-            color: '#e17b77'
-        },
     },
     {
         text: 'Began 5 week Virtual Summer Technology Internship Program at J.P.Morgan',
