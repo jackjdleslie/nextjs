@@ -126,7 +126,7 @@ export default function Skills({}) {
                 />
                 <h4> Being an absolute music connoisseur ;)</h4>
                 <p align="center"> Listen to some of my favs here </p>
-                <p align="center"><iframe src="https://open.spotify.com/embed/playlist/5oQtU59CB1irSYMQnIHYlx" width="300" height="380"
+                <p align="center"><iframe src="https://open.spotify.com/embed/playlist/5oQtU59CB1irSYMQnIHYlx" width="50%" max-width="300" height="380"
                                           frameBorder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
             </div>
 

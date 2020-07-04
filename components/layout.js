@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
                 {home ? (
                     <>
                         <img
-                            src="/images/profile.jpg"
+                            src="/images/Ariane Hine University of St Andrews.jpg"
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
@@ -49,7 +49,7 @@ export default function Layout({ children, home }) {
                         <Link href="/">
                             <a>
                                 <img
-                                    src="/images/profile.jpg"
+                                    src="/images/Ariane Hine University of St Andrews.jpg"
                                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                     alt={name}
                                 />
